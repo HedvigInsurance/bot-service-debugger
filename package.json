@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "concurrently -n srv,elm \"nodemon .\" \"elm reactor\""
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "elm": "^0.19.0-no-deps",
+    "koa": "^2.8.1",
+    "koa-accesslog": "^0.0.2",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.1"
+  }
+}
